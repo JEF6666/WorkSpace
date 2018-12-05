@@ -17,7 +17,7 @@ int main()
 	mediator->sendMessageWithinPlugin(&A, &B, "123", 4);
 	mediator->sendMessageWithinPlugin(&B, &E, "1234", 5);
 	mediator->sendMessageWithinPlugin(&D, &C, "12345", 10);
-	mediator->sendMessageWithinPlugin(&D, &A, "12345", 10);
+	mediator->sendMessageWithinPlugin(&D, &A, "122345", 10);
     return 0;
 }
 
